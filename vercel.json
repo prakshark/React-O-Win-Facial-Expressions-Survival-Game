@@ -12,7 +12,16 @@
   "routes": [
     {
       "src": "/models/(.*)",
-      "dest": "/public/models/$1"
+      "dest": "/public/models/$1",
+      "headers": {
+        "Content-Type": "application/javascript"
+      }
+    },
+    {
+      "src": "/(.*\\.js)",
+      "headers": {
+        "Content-Type": "application/javascript"
+      }
     },
     {
       "src": "/(.*)",
