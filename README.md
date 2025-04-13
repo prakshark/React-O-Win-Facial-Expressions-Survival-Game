@@ -1,15 +1,72 @@
-# React + Vite
+# ReactoWin 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive game where you control the character using your facial expressions! Jump, duck, and dash your way through obstacles using just your face.
 
-Currently, two official plugins are available:
+## 🎯 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🤖 Real-time facial expression detection
+- 🎮 Intuitive game controls using facial expressions
+- 🎨 Retro-futuristic cyberpunk theme
+- 📱 Responsive design for all devices
+- 🚀 Smooth performance and animations
 
-## Live Demo
-Check out the live demo at: [https://reactowin.vercel.app/](https://reactowin.vercel.app/)
+## 🎮 How to Play
 
-## Expanding the ESLint configuration
+- 😊 Smile to Jump
+- 😠 Angry face to Duck
+- 😮 Surprised face to Dash
+- 😐 Neutral face to stay idle
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Demo
+
+Check out the live version at: [https://reactowin.vercel.app/](https://reactowin.vercel.app/)
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- face-api.js for facial expression detection
+- p5.js for game rendering
+- CSS3 for styling
+
+## 🚀 Getting Started
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/reactowin.git
+```
+
+2. Install dependencies
+```bash
+cd reactowin
+npm install
+```
+
+3. Start the development server
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## 📝 Prerequisites
+
+- Modern web browser with camera access
+- Node.js (v14 or higher)
+- npm or yarn
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👨‍💻 Author
+
+- GitHub: [@prakshark](https://github.com/prakshark)
+
+---
+
+Made with ❤️ using React and Vite
